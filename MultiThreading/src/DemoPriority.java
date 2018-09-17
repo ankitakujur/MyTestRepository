@@ -9,6 +9,7 @@ public static void main(String args[]) {
 	Thread t= new DemoPriority();
 	t.setPriority(MAX_PRIORITY);
 	try
+	//..........
 	{
 	t.start();
 	t.join();
